@@ -6797,4 +6797,24 @@ button.close {
     display: none !important;
   }
 }
+
+#Nav {
+  background-color: coral;
+}
+
+body {
+  background-color: lightgray;
+}
+
+#list1 {
+  color: black;
+}
+
+#list2 {
+  color: black;
+}
+
+#list3 {
+  color: black;
+}
 /*# sourceMappingURL=bootstrap.css.map */

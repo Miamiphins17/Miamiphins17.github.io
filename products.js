@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 	
-	var baseFile = "https://miamiphins17.github.io/Jerseys.json";
+	var baseFile = "https://Miamiphins17.github.io/Jerseys.json";
 	
 	// setup links
 	$.getJSON(baseFile, function(data){
