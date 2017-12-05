@@ -13,8 +13,6 @@ $(document).ready(function(){
 			var $a = $("<a href='#'></a>");
 			var $li =$("<li></li>");
 
-
-
 			$a.text(e.City);
 			$a.text(e.Mascot);
 			$a.text(e.Name);
