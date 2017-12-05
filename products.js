@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 	
-	var baseFile = "https://Miamiphins17.github.io/Jerseys.json";
+	var baseFile = "https://Miamiphins17.github.io/file.json";
 	
 	// setup links
 	$.getJSON(baseFile, function(data){
@@ -16,9 +16,9 @@ $(document).ready(function(){
 
 
 			$a.text(e.City);
-			//$a.text(e.Mascot);
-			//$a.text(e.Name);
-			//$a.text(e.Number);
+			$a.text(e.Mascot);
+			$a.text(e.Name);
+			$a.text(e.Number);
 			//$price.text(e.price);
 			//$a.append($price);
 			$li.append($a);
