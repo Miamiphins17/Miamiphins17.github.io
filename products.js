@@ -12,11 +12,14 @@ $(document).ready(function(){
 			//var $price = $("<p></p>");
 			var $a = $("<a href='#'></a>");
 			var $li =$("<li></li>");
-			
-			$a.text(e.City);
-			$a.text(e.Mascot);
-			$a.text(e.Name);
-			$a.text(e.Number);
+			var $City = $("<p></p>");
+
+
+
+			$City.text(e.City);
+			//$a.text(e.Mascot);
+			//$a.text(e.Name);
+			//$a.text(e.Number);
 			//$price.text(e.price);
 			
 			//$a.append($price);
