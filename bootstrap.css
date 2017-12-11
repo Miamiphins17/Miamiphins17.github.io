@@ -6817,4 +6817,24 @@ body {
 #list3 {
   color: black;
 }
+
+#products{
+padding: 0px;
+}
+
+#order {
+  float: right;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+#box{
+  margin: 0px;
+  padding: 0px;
+}
+
+#product-list{
+  margin-left: 50px;
+  padding: 0px;
+}
 /*# sourceMappingURL=bootstrap.css.map */

@@ -21,10 +21,10 @@
 	<!-- /.container-fluid -->
 </nav>
 
-<div class="container">
+<div id="box" class="container">
 	
 	<div class="row">
-		<div class="col-md-12">
+		<div id="products" class="col-md-9">
 			
 			<ul id="product-list">
 				
@@ -34,10 +34,15 @@
 	</div>
 	
 </div>
-
+<div class="container-left">
+	<div class="row">
+		<div id="order" class="col-md-3">
 <p id="product-details"></p>
-<label for="quantity" id="label">Quantity<input id="quantity" type="number" min="0" max="10" value="1" /> </label>
-<button id="order-button">order</button>
+<label for="quantity" id="label"><h3>Quantity:</h3><input id="quantity" type="number" min="0" max="10" value="1" /> </label>
+<button id="order-button"><h5>Order</h5</button>
+	</div>
+</div>
+</div>
 
 <!-- The Modal, hidden until called by clicking on product -->
 <div id="myModal" class="modal">

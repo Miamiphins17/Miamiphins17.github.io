@@ -1,5 +1,4 @@
-{
-  "Jerseys": [
+[
     {
       "City": "Toronto",
       "Mascot": "Titans",
@@ -121,4 +120,3 @@
       "Number": "13"
     }
   ]
-}

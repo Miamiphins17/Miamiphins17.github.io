@@ -1,9 +1,16 @@
-/**
- Export to JSON plugin for PHPMyAdmin
- @version 0.1
- */
-
-// Database 'dking73'
-// dking73.Jerseys
-
-[{"City": "Toronto","Mascot": "Titans","Name": "Zavanella","Number": 70}, {"City": "St.Louis","Mascot": "Sidewinders","Name": "Love","Number": 7}, {"City": "Charlotte","Mascot": "Toucans","Name": "Tager","Number": 4}, {"City": "Miami","Mascot": "Mallards","Name": "Vandergrift","Number": 33}, {"City": "Seattle","Mascot": "Sloths","Name": "Hagans","Number": 2}, {"City": "Houston","Mascot": "Hedgehogs","Name": "Facey","Number": 23}, {"City": "Atlanta","Mascot": "Antelopes","Name": "Geffroy","Number": 27}, {"City": "Little Rock","Mascot": "Llamas","Name": "Krogh","Number": 67}, {"City": "New York City","Mascot": "Newts","Name": "McConway","Number": 26}, {"City": "Baltimore","Mascot": "Baboons","Name": "Zobel","Number": 57}, {"City": "Chicago","Mascot": "Clams","Name": "Aykroyd","Number": 30}, {"City": "Indianapolis","Mascot": "Iguanas","Name": "Touserkani","Number": 69}, {"City": "Jacksonville","Mascot": "Jackals","Name": "Orias","Number": 71}, {"City": "St. Paul","Mascot": "Starfish","Name": "Carrington-Crouch","Number": 27}, {"City": "Portland","Mascot": "Pandas","Name": "Prescott-Shcuster","Number": 11}, {"City": "Denver","Mascot": "Dingos","Name": "Willoughby","Number": 42}, {"City": "San Diego","Mascot": "Salamanders","Name": "Mohammadzadeh","Number": 52}, {"City": "Glendale","Mascot": "Guinea Pigs","Name": "Bott","Number": 50}, {"City": "Pittsburgh","Mascot": "Pygmy Shrews","Name": "Beaulieu","Number": 25}, {"City": "Cleveland","Mascot": "Crabs","Name": "Wudl","Number": 13}]
+[{"city":"Tengah","mascot":"Paddy heron (unidentified)","name":"Kerrigan","number":41},
+{"city":"Xinji","mascot":"Mexican wolf","name":"McCole","number":33},
+{"city":"Palhoça","mascot":"Bobcat","name":"Pomfrey","number":93},
+{"city":"South Tangerang","mascot":"Prairie falcon","name":"Dessant","number":59},
+{"city":"Guanajuato","mascot":"Macaw, blue and yellow","name":"Norree","number":57},
+{"city":"Aborlan","mascot":"Pheasant, common","name":"Antonelli","number":47},
+{"city":"Szeged","mascot":"Red-legged pademelon","name":"Antonovic","number":35},
+{"city":"Jianchang","mascot":"Butterfly, tropical buckeye","name":"Benzies","number":6},
+{"city":"Yaopi","mascot":"Common eland","name":"De Bellis","number":49},
+{"city":"San Juan","mascot":"Cat, native","name":"Robken","number":9},
+{"city":"An Nāşirīyah","mascot":"Loris, slender","name":"Pyer","number":44},
+{"city":"Aragarças","mascot":"Dromedary camel","name":"Donke","number":81},
+{"city":"Tombu","mascot":"Black-faced kangaroo","name":"Crowth","number":22},
+{"city":"Áno Kómi","mascot":"Tortoise, galapagos","name":"Ravenshear","number":49},
+{"city":"Lancang","mascot":"Brazilian tapir","name":"Hyrons","number":72},
+{"city":"Nchelenge","mascot":"Blue peacock","name":"Milkins","number":43}]
