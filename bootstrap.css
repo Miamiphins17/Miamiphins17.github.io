@@ -6800,6 +6800,7 @@ button.close {
 
 #Nav {
   background-color: coral;
+  margin-bottom: 0px;
 }
 
 body {
@@ -6826,6 +6827,7 @@ padding: 0px;
   float: right;
   margin-right: 0px;
   margin-left: 0px;
+  border: 10px solid coral;
 }
 
 #box{
@@ -6837,4 +6839,102 @@ padding: 0px;
   margin-left: 50px;
   padding: 0px;
 }
+
+#products {
+
+height: 600px;
+
+width: 400px;
+
+overflow: auto;
+
+background-color: coral;
+
+border: 10px solid grey;
+}
+
+p{
+  color: navajowhite;
+}
+
+a {
+  color: black;
+}
+
+#feature-desc{
+  color: black;
+}
+
+   #christmas {
+      
+      font-family: futura;
+      
+      color: green;
+      font-weight: bold;
+      position: relative;
+      -webkit-animation:colorchange 10s infinite alternate;
+      
+      
+    }
+
+    @-webkit-keyframes colorchange {
+      0% {
+        
+        color: red;
+      }
+      
+      10% {
+        
+        color: green;
+      }
+      
+      20% {
+        
+        color: red;
+      }
+      
+      30% {
+        
+        color: green;
+      }
+      
+      40% {
+        
+        color: red;
+      }
+      
+      50% {
+        
+        color: green;
+      }
+      
+      60% {
+        
+        color: red;
+      }
+      
+      70% {
+        
+        color: green;
+      }
+      80% {
+     
+        color: red;
+      }
+      
+      90% {
+     
+        color: green;
+      }
+      
+      100% {
+        
+        color: red;
+      }
+    }
+
+    #product-details{
+      color: black;
+    }
+
 /*# sourceMappingURL=bootstrap.css.map */

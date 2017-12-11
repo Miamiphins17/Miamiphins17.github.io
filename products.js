@@ -1,19 +1,18 @@
 // work on send/retrieve line 45
 
 $(document).ready(function(){
-	
-	var baseFile = "https://my.api.mockaroo.com/users.json?key=7dfa4860";
+	var baseFile = "https://my.api.mockaroo.com/jerseys.json?key=0a8afae0";
 	
 	// setup links
 	$.getJSON(baseFile, function(data){
 		$("#product-list").empty(); // remove any old links
 		// data is an array of product objects
 		$.each(data, function(i, e){
-			var $price = $("<h4></h4>");
+			var $price = $("<h5></h5>");
 			var $mascot = $("<p></p>");
 			var $city = $("<p></p>");
 			var $number = $("<p></p>");
-			var $a = $("<a href='#order-button'></a>");
+			var $a = $("<a href='#order-button'><b></b></a>");
 			var $li =$("<li></li>");
 			
 			$a.text(e.name);
@@ -38,7 +37,7 @@ $(document).ready(function(){
 		return function onClick() {
 			let details = ""
 			details = e.description
-			$("#product-details").text(details);
+			$("#product-details").text("Great choice! How many would you like?");
 			$("#order-button").show();
 			$("#label").show();
 			$("#quantity").show();
@@ -52,11 +51,11 @@ $(document).ready(function(){
 	var modal = document.getElementById("myModal");
 	var span = document.getElementsByClassName("close")[0];
 //******************* Send quantity and retrieve total price here */
-var $quantity = document.getElementBy("quantity");
-var $price = $(price);
-var $total = ($price * $quantity);
+var total = 0;
+var quantity = 2
+total = (this.$price.get("description") * quantity);
 //******************* Display total price in $("#total-price") here */
-$("#total-price").text($total);
+$("#total-price").text( "Total: $" + total.toFixed(2) );
 	modal.style.display = "block";
 
 	// When the user clicks on <span> (x), close the modal
@@ -70,5 +69,5 @@ $("#total-price").text($total);
 		}
 	}
 }
-	
+
 });
