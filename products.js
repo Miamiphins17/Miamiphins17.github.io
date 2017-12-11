@@ -53,7 +53,7 @@ $(document).ready(function(){
 	var span = document.getElementsByClassName("close")[0];
 //******************* Send quantity and retrieve total price here */
 var $quantity = document.getElementBy("quantity");
-var $price = $price;
+var $price = $(price);
 var $total = ($price * $quantity);
 //******************* Display total price in $("#total-price") here */
 $("#total-price").text($total);
