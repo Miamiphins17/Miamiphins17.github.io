@@ -1,8 +1,7 @@
 // work on send/retrieve line 45
-
+var price = 0;
 $(document).ready(function(){
 	var baseFile = "https://my.api.mockaroo.com/jerseys.json?key=0a8afae0";
-	
 	// setup links
 	$.getJSON(baseFile, function(data){
 		$("#product-list").empty(); // remove any old links
@@ -20,6 +19,7 @@ $(document).ready(function(){
 			$mascot.text(e.mascot);
 			$number.text(e.number);
 			$price.text(e.price);
+			price = $(e.price).value;
 			
 			$a.append($price);
 			$city.append($city);
@@ -51,9 +51,12 @@ $(document).ready(function(){
 	var modal = document.getElementById("myModal");
 	var span = document.getElementsByClassName("close")[0];
 //******************* Send quantity and retrieve total price here */
-var total = 0;
-var quantity = 2
-total = (this.$price.get("description") * quantity);
+	var total = 0;
+	var quantity = $("#quantity").value;
+	console.log(price);
+	total = quantity*price;
+
+
 //******************* Display total price in $("#total-price") here */
 $("#total-price").text( "Total: $" + total.toFixed(2) );
 	modal.style.display = "block";
